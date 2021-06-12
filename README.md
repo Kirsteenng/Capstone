@@ -1,5 +1,5 @@
 #  Final Year Capstone Project in HKUST
-This project aims to replicate the Simple Low Rank Tensor Completion (SiLRTC) algorithm [https://ieeexplore.ieee.org/document/6138863]. The research has proposed that tensor rank as the convex combination of all matrices unfolded along each direction of the tensor and the tensor rank is described in the following equation.
+This project aims to replicate the Simple Low Rank Tensor Completion (SiLRTC) algorithm [https://ieeexplore.ieee.org/document/6138863]. The research has proposed that tensor rank as the convex combination of all matrices unfolded along each direction of the tensor.
 
 This tensor rank is used to solved the optimization problem of missing pixel in an image.
 # Process 
