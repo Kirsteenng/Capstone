@@ -5,7 +5,7 @@ This tensor rank is used to solved the optimization problem of missing pixel in 
 # Process 
 * The SiLRTC is developed in MATLAB. 
 * Images are generated from video and random pixels are being removed from the images. The goal is to recover the missing pixels and determine the optimum parameters for lowest error rate and fastest computation time.
-* Based on various experiment rounds, dividing the input image into 8 blocks of dimension [120 x 427 x 3] produces the most optimum result with constant alpha and beta.
+* Based on various experiment rounds, dividing the input image into 8 blocks of dimension [120 x 427 x 3] produces the most optimal result with constant alpha and beta. More details on experiment and result can be found here[https://github.com/Kirsteenng/Capstone/blob/master/Capstone%20Report.pdf].
 
 # Details of depository
 * SLTRC2.m contains the function that is able to recover part of the tensor that is being removed using a modified SVD function. SLTRC2.m uses 2 main functions,  MySVDTau.m and Pro2TraceNorm.m, located in the folder LRTC_Package_Ji.
